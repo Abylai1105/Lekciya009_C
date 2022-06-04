@@ -11,7 +11,7 @@ Console.WriteLine(result);
 int Rekurs(int number)
 {
     if (number == 1)
-        return n;
+        return 1;
     int temp = (Rekurs(number - 1));
     Console.Write(temp + ", " );
     return number;
