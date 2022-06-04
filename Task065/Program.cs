@@ -17,7 +17,7 @@ int OutputFunction(int numStart, int numEnd)
 {
     if (numEnd == numStart)
     {
-        return numberEnd;
+        return numberStart;
     }
     Console.Write(OutputFunction(numStart, numEnd - 1) + ", ");
     return numEnd;
